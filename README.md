@@ -5,7 +5,7 @@
 <img alt="GitHub stars" src="https://img.shields.io/github/stars/jhonathannc/bookcommunity-api">
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/jhonathannc/bookcommunity-api">
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jhonathannc/bookcommunity-api">
-<img alt="GitHub" src="https://img.shields.io/github/license/jhonathannc/bookcommunity-api">
+<img alt="GitHub" src="https://img.shields.io/github/license/jhonathannc/bookcommunity-api?color=blue">
 </p>
 
 Needs README in english? [Check here](https://github.com/jhonathannc/bookcommunity-api/blob/master/README.en.md)
