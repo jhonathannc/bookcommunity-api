@@ -131,10 +131,10 @@ Executar a API
 Pronto, se tudo ocorreu bem, a api ja está funcionando normalmente!
 Deixar no repositório um arquivo do insomnia para o teste de todo os endpoints.
 
-## Endpoints
+### 🌐 Endpoints
 <img src="https://i.ibb.co/98TtJwJ/api-endpoints.png" width="400">
 
-## Preview
+### 🖥 Preview
 <p align="center">Emails - Bem-vindo e Recuperação de senha</p>
 <p align="center">
     <a href="https://imgbb.com/"><img src="https://i.ibb.co/N13qSMn/welcome-mail.png" alt="welcome-mail" width="400"></a>
@@ -146,5 +146,5 @@ Deixar no repositório um arquivo do insomnia para o teste de todo os endpoints.
     <a href="https://imgbb.com/"><img src="https://i.ibb.co/g3C3sFF/recoverdone.png" alt="recoverdone" border="0" width="400"></a>
 </p>
 
-## Licença
+### 📋 Licença
 Esta API está dotada da [MIT license](https://opensource.org/licenses/MIT).
