@@ -69,10 +69,10 @@ This API uses the following technologies:
 ```
 
 ### 📂 Resources Used
-- [<b> PHPStorm </b>] (https://www.jetbrains.com/pt-br/phpstorm/) - For me, the best idea for php today.
-- [<b> Insomnia </b>] (https://insomnia.rest/download/) - Test all api endpoints.
-- [<b> Mailtrap </b>] (https://mailtrap.io/) - View your email submissions.
-- [<b> DBeaver </b>] (https://dbeaver.io/) - Administer the database.
+- [<b> PHPStorm </b>](https://www.jetbrains.com/pt-br/phpstorm/) - For me, the best idea for php today.
+- [<b> Insomnia </b>](https://insomnia.rest/download/) - Test all api endpoints.
+- [<b> Mailtrap </b>](https://mailtrap.io/) - View your email submissions.
+- [<b> DBeaver </b>](https://dbeaver.io/) - Administer the database.
 
 ### 🔗 How to run the project
 
