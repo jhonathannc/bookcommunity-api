@@ -8,6 +8,9 @@
 <img alt="GitHub" src="https://img.shields.io/github/license/jhonathannc/bookcommunity-api">
 </p>
 
+Needs README in english? [Check here](https://github.com/jhonathannc/bookcommunity-api/blob/master/README.en.md)
+
+
 ### 📋 Índice
 
 - [Sobre](#-Sobre)
@@ -21,7 +24,7 @@
 
 ### 📖 Sobre
 
-Esa é um API simples, que permite fazer cadastro de usuario, login, redefinir a senha, pesquisar os livros cadastrados na base da dados, cadastrar um novo livro e editá-lo. De inicio eu escolhi o laravel, pois esse é um excelente framework que me auxilia e muito no desenvolvimento, me entregando muitos métodos prontos e fazendo com que eu foque apenas na solução real do projeto. Bom de inicio, a api utiliza de uma autenticação por jwt, fazendo com que nenhuma rota seja acessada exceto se o usuário efetuar o login e utilizar de seu token para fazer as requisições. Ao se cadastrar, o usuário recebe em seu email, um pedido de verificação e não tem acesso as requisições até que seu email esteja verificado. Após o email verificado, ele está apto para fazer requisições na api. Aaah, se ele esquecer a senha, ele também recebe um email para redefinir sua senha. Ao adicionar um livro, ele pode ver o seu livro editado em uma listagem, e o laravel fornece toda a listagem por páginas, ou seja, ele verá 5 livros por vez. Nesta api, também é possível fazer uma resenha sobre o livro, onde o usuário escolhe qual livro ele deseja avaliar (nota de 1 a 5), e escrever um breve comentário (podendo editá-lo também). Toda a programação foi feita em inglês, para treinar um pouco minhas habilidades em inglês e também porque meu [phpstorm](https://www.jetbrains.com/pt-br/phpstorm/) não tem dicionário em português, então ele fica me sugerindo que há erros de ortografia e eu tenho toc com isso 😅. Bom, o funcionamento da api é esse, parece simples, mas me rendeu muito conhecimento, principalmente com o jwt, que achei que seria um grande vilão, pois sua documentação é bem fraca, então tive que recorrer a vários fóruns e tutoriais na internet. Usei como base vários tutoriais na internet, e alguns templates também, pois a minha intenção aqui não era desenvolver um código pronto, e sim entender como funciona o essa relação de uma api rest feita com laravel utilizando autenticação com jwt. Então, se você é autor de algum código ou template aqui usado, porfavor, entre em contato comigo e ficarei muito grato em colocar sua referência aqui. Abaixo vou deixar algumas das referências que usei como base, pois como dito utilizei de vários artigos e videos na internet.
+Esta é uam API simples, que permite fazer cadastro de usuario, login, redefinir a senha, pesquisar os livros cadastrados na base da dados, cadastrar um novo livro e editá-lo. De inicio eu escolhi o laravel, pois esse é um excelente framework que me auxilia e muito no desenvolvimento, me entregando muitos métodos prontos e fazendo com que eu foque apenas na solução real do projeto. Bom pra começar, a api utiliza de uma autenticação por jwt, fazendo com que nenhuma rota seja acessada exceto se o usuário efetuar o login e utilizar de seu token para fazer as requisições. Ao se cadastrar, o usuário recebe em seu email, um pedido de verificação e não tem acesso as requisições até que seu email esteja verificado. Após o email verificado, ele está apto para fazer requisições na api. Aaah, se ele esquecer a senha, ele também recebe um email para redefinir sua senha. Ao adicionar um livro, ele pode ver o seu livro editado em uma listagem, e o laravel fornece toda a listagem por páginas, ou seja, ele verá 5 livros por vez. Nesta api, também é possível fazer uma resenha sobre o livro, onde o usuário escolhe qual livro ele deseja avaliar (nota de 1 a 5), e escrever um breve comentário (podendo editá-lo também). Toda a programação foi feita em inglês, para treinar um pouco minhas habilidades em inglês e também porque meu [phpstorm](https://www.jetbrains.com/pt-br/phpstorm/) não tem dicionário em português, então ele fica me sugerindo que há erros de ortografia e eu tenho toc com isso 😅. Bom, o funcionamento da api é esse, parece simples, mas me rendeu muito conhecimento, principalmente com o jwt, que achei que seria um grande vilão, pois sua documentação é bem fraca, então tive que recorrer a vários fóruns e tutoriais na internet. Usei como base vários tutoriais na internet, e alguns templates também, pois a minha intenção aqui não era desenvolver um código pronto, e sim entender como funciona o essa relação de uma api rest feita com laravel utilizando autenticação com jwt. Então, se você é autor de algum código ou template aqui usado, porfavor, entre em contato comigo e ficarei muito grato em colocar sua referência aqui. Abaixo vou deixar algumas das referências que usei como base, pois como dito utilizei de vários artigos e videos na internet.
 
 
 - [Build a REST API with Laravel API resources](https://blog.pusher.com/build-rest-api-laravel-api-resources/).
@@ -37,9 +40,9 @@ Esa é um API simples, que permite fazer cadastro de usuario, login, redefinir a
 Resumidamente, essas são as funções da API:
 ```bash
 • Cadastro de usuário.    
-• Envio de email quando usuário de cadastra(para o usuário validar seu email e liberar seu uso no sistema).
+• Envio de email quando usuário se cadastra (para o usuário validar seu email e liberar seu uso no sistema).
 • Redefinir senha de usuário com uma confirmação no email.
-• Token de ligação expira em 60 minutos.
+• Token de login expira em 60 minutos.
 • Token de validacao de email/redefinição de senha expira em 60 minutos.
 • Cadastro de um livro 
 • Avaliação qualquer livro com nota e comentário.
