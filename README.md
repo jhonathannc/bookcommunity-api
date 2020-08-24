@@ -10,9 +10,8 @@
 
 ### 📋 Índice
 
-- [Sobre](#-Sobre-esta-API)
+- [Sobre](#-Sobre)
 - [Funções da API](#-Funções-da-API)
-- [Preview](#-Preview)
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
 - [Recursos utilizados](#-Recursos-Utilizados)
 - [Como executar o projeto](#-Como-executar-o-projeto)
@@ -39,7 +38,7 @@ Resumidamente, essas são as funções da API:
 ```bash
 • Cadastro de usuário.    
 • Envio de email quando usuário de cadastra(para o usuário validar seu email e liberar seu uso no sistema).
-• Redefinir senha do usuário com uma confirmação no email.
+• Redefinir senha de usuário com uma confirmação no email.
 • Token de ligação expira em 60 minutos.
 • Token de validacao de email/redefinição de senha expira em 60 minutos.
 • Cadastro de um livro 
@@ -93,7 +92,7 @@ Clonar o repositório
 Entrar no diretório
 # cd bookcommunity-api
 
-Copiar o arquivo exemplo do .env.example
+Gerar um arquivo .env
 # cp .env.example .env
 
 Criar um banco de dados e colocar as informações dele no arquivo .env
@@ -107,10 +106,10 @@ Criar um banco de dados e colocar as informações dele no arquivo .env
 Baixar as dependências
 # composer install
 
-Setup do laravel
+Setup Laravel
 # php artisan key:generate
 
-Setup do JWT
+Setup JWT
 # php artisan jwt:secret
 
 Configurar um smtp (utilizei o mailtrap)
